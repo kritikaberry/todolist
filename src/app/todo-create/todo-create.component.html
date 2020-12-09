@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<form>
+<label>ID:<input type="number" [(ngModel)]="id" name="id" > <br><br> </label>
+<label>Date:<input type="text" [(ngModel)]="date" name="date" ><br><br> </label>
+<label>Title:<input type="text" [(ngModel)]="title" name="title" >  <br><br> </label>
+<label>Desc:<input type="text" [(ngModel)]="description" name="desc" > <br><br> </label>
+<button (click)="additem()">Submit</button>
+</form>
+<!--
+<form #formdata="ngForm" (ngSubmit)="additem()">
+    <label>ID:<input type="text" ngModel name="id"> <br><br> </label>
+    <label>Date:<input type="text" ngModel name="date"> <br><br> </label>
+    <label>Title:<input type="text" ngModel name="title"> <br><br> </label>
+    <label>Desc:<input type="text" ngModel name="description"> <br><br> </label>
+    <button>Submit</button>
+</form>
+-->
